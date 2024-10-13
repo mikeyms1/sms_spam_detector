@@ -1,1 +1,4 @@
 # sms_spam_detector
+This challenge consisted on using a starter file found [here](https://github.com/mikeyms1/sms_spam_detector/blob/main/gradio_sms_text_classification-starter.ipynb), and building a function that reads in classified sms messages, found [here](https://github.com/mikeyms1/sms_spam_detector/blob/main/Resources/SMSSpamCollection.csv), then training a machine learning classification model that can determine if a sms message is spam or not.  Then a fuction was created that when passed a message, the output is if the message is spam or ham.  And finanly, a gradio app was created that allows users to paste messages in and it will determine the appropriate prediction.
+
+The final results file can be found [here](https://github.com/mikeyms1/sms_spam_detector/blob/main/gradio_sms_text_classification.ipynb).
